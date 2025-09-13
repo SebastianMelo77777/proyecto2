@@ -7,7 +7,7 @@ import geopandas as gpd
 data = pd.read_csv("base2p.csv")
 gdf = gpd.read_parquet("pro2.parquet")
 
-st.title("Proyecto 2")
+st.title("Datos fiscales municipales")
 
 munis = data["entidad"].unique().tolist()
 
